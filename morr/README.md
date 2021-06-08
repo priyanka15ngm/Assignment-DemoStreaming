@@ -1,11 +1,11 @@
 Questions:
-Ques.How did you decide on the technical and architectural choices used as part of your solution?
+# Ques.How did you decide on the technical and architectural choices used as part of your solution?
 Ans. In this assignment we have to work only with the Front-end which is the view layer of MVC architecture(Model-View-Controller).So, I decided to use React.React is a javascript library.It is SEO friendly and divide the code into components,which can be easily reused.
 
-Ques.Are there any improvements you could make to your submission?
+# Ques.Are there any improvements you could make to your submission?
 Ans. I have used so many div's for styling but i can reduce that number of div's by writting more optimized code which makes React rendering faster.
 
-Ques.What would you do differently if you were allocated more time?
+# Ques.What would you do differently if you were allocated more time?
 Ans. i will add the login page and categorize movies and series into subcategory by adding more tiles of Horror,Comedy and Romantic.
 
 
