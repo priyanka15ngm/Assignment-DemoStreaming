@@ -1,8 +1,8 @@
 import React from 'react';
-
-import mov from "./mov.jpeg";
-import ser from "./ser.jpeg";
-
+import mov from "./mov.jpg";
+import ser from "./ser.jpg";
+import "../css/Home.css";
+import Header from "./Header";
 import { Link } from "react-router-dom";
 
 //--------------------------------------------------
@@ -19,19 +19,26 @@ import { Link } from "react-router-dom";
 
 const Home = () =>{
     return<>
+    <Header title={`title`}/>
+    <div className = "body">
+        <div className="div1">
+                    <Link to="/Series" className="nav-link" exact>
+                            <img src = {ser} alt="series image" height ={200}/> 
+                
+                    </Link><p><b>Popular Series</b></p> 
+                                                
+        </div>
     
-    <Link to="/Series" className="nav-link" exact>
-    <img src = {ser} alt="series image" height ={200}/> 
-    
-    </Link>
-    <p>Popular Series</p> 
 
-    <Link to="/Movies" className="nav-link" exact>
-    <img src = {mov} alt="movies image" height ={200}/> 
-    </Link>
+        <div className="div1">
+            <Link to="/Movies" className="nav-link" exact>
+                <img src = {mov} alt="movies image" height ={200}/> 
+                </Link> <p><b>Popular Movies</b></p>
 
-    <p>Popular Movies</p>
+   
+        </div>
         
+    </div>
 
         
 
